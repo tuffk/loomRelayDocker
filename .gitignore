@@ -1,9 +1,4 @@
-# ignore all
-*
-
-#include importnat files
-!.gitignore
-!config.sh
-!Dockerfile
-!README.md
-!10-loom.conf
+*.crt
+*.pem
+*.cer
+corremela.sh
