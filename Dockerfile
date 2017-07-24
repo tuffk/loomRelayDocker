@@ -3,6 +3,7 @@ FROM alpine
 
 # copy config script for rsyslog
 COPY ./config.sh config.sh
+COPY ./10-loom.conf /etc/rsyslog.d/10-loom.conf
 
 #install required packages
 RUN apk --no-cache add --update rsyslog rsyslog-tls curl openrc bash vim\
