@@ -1,0 +1,7 @@
+# ignore all
+*
+
+#include importnat files
+!.gitignore
+!config.sh
+!Dockerfile
