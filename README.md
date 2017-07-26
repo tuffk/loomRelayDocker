@@ -8,5 +8,5 @@ docker run --name <name> -e CUSTOMER_NAME=<cutomer name> [-e DEBUG=true] --privi
 ```
 
 ## Configuration with environment variables
-* `CUSTOMER_NAME` - custumer's name
+* `CUSTOMER_NAME` - customer's name
 * `DEBUG` [true|false] - start rsyslog with debug mode on (default is false)
