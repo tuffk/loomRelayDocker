@@ -1,6 +1,7 @@
 FROM alpine:3.6
 
-ENV DEBUG=false
+ENV DEBUG=false \
+  CUSTOMER_NAME=""
 
 #install required packages
 RUN apk update \
