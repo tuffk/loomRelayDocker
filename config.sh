@@ -1,7 +1,6 @@
 
 EXCLUDE_IP=${EXCLUDE_IP:=$(hostname -i)}
 sed -i "s/<CUSTOMER_NAME>/$CUSTOMER_NAME/g" /etc/rsyslog.d/10-loom.conf
-sed -i "s/<SEND_IP>/$SEND_IP/g" /etc/rsyslog.d/10-loom.conf
 sed -i "s/<EXCLUDE_IP>/$EXCLUDE_IP/g" /etc/rsyslog.d/10-loom.conf
 
 if [ -z "$CUSTOMER_NAME" ]
