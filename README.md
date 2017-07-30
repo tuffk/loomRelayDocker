@@ -15,3 +15,7 @@ docker run --name <name> -e CUSTOMER_NAME=<cutomer name> -e SEND_IP=<ip> [-e DEB
 
 ## Docekr version
 Docker 17
+
+
+## Exit Codes
+1. Error starting relay: please specify your customer name
