@@ -18,4 +18,4 @@ Docker 17
 
 
 ## Exit Codes
-1. Error starting relay: please specify your customer name
+* `1` Error starting relay: please specify your customer name
